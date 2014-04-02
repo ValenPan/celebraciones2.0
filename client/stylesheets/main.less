@@ -1,8 +1,68 @@
+
+//imagen corporativa
+
+//los tres azules de boda.
+@color_1:#d0e5e8;
+@color_2:#ebf5f6;
+
+@fontcolor:#83b6b7;
+
+
+//fuentes gotham y 
+.color_1{
+ background-color: @color_1; 	
+}
+
+.color_2{
+	 background-color: @color_2; 	
+}
+
+
+.container{
+	padding:50px 20px;
+}
+
 html,
 body {
-  font-size: 25px;
+  font-size: 18px;
   margin:0px;
-  font-family: "Cabin", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: 'gotham_roundedbook','Helvetica',Arial, sans-serif;
+  background-color: @color_1; 	
+}
+
+
+.subfont{
+	font-family: 'gotham_roundedbook','Helvetica',Arial, sans-serif;
+	font-size:70px;
+	color:@fontcolor;
+}
+
+p{
+	color:@fontcolor;
+}
+
+h1,h2,h3,h4{
+	
+	font-family: 'wolf_in_the_city_lightregular','Helvetica',Arial, sans-serif;
+	color:#FFF;
+	
+}
+
+h1{
+	font-size:140px;
+
+}
+
+span:after, :before{
+	display:inline;
+}
+
+h2{
+	font-size:120px;
+	color:@fontcolor;
+	
+	line-height: 67px;
+	text-shadow: 2px 2px 0px white;
 }
 
 section{
@@ -13,5 +73,49 @@ section{
 footer{
   color:#d0d0d0;
   text-align: center;
+}
+
+.center{
+	margin:0px auto;
+}
+
+.textcenter{
+	text-align: center;
+}
+
+.right{
+	float:right;
+}
+
+.logo{
+	margin-top:20px;
+
+}
+
+
+
+.titulo{
+	text-align: center;
+	margin-bottom:40px;
+}
+
+.titulo h1{
+	margin:0;
+	line-height: 77px;
+	text-shadow: 2px 2px 0px @fontcolor;
+}
+
+
+.bloquetexto{
+	margin:20px auto;
+	max-width: 600px;
+	
+}
+
+
+#masthead .icon{
+	float:left;
+
+
 }
 

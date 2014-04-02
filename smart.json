@@ -1,9 +1,9 @@
 {
   "packages": {
-    "collection2": {},
     "iron-router": {},
-    "semantic-ui": {}
+    "collection2": {},
+    "less-bootstrap-3": {},
+    "animate-css": {},
+    "wow": {}
   }
 }
-
-

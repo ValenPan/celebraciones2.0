@@ -3,7 +3,7 @@
    <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
-        <title>Mallorcaio</title>
+        <title>Celebraciones 2.0</title>
         
         <meta name="description" content="">
         
@@ -13,8 +13,19 @@
    <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
 </head>
 
-<template name="layout">
-{{yield 'header'}}
-  {{yield}}
-{{yield 'footer'}}
- </template>
+<template name="masterLayout">
+  <header>
+  	<nav>
+  		
+  	</nav>
+	
+</header>
+
+  <div id="content">
+    {{> yield}}
+  </div>
+
+  	<footer>
+ 			<small>Copyright 2014, PalmandPlay</small>
+	</footer>
+</template>
